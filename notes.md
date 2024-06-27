@@ -95,11 +95,11 @@ React Functional Component:
 
 The main difference is how you render this functional component and It must return some JSX or a react Element
 
-
+CODE:
 const Head = () => (
     <h1> Hello World as React Component </h1>
 ) 
-or 
+or :
 const Head = function(){
     return <h1> Hello World as React Component </h1>
 }
